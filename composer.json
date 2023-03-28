@@ -1,0 +1,20 @@
+{
+  "name": "beapi/wp-cli-searchwp-legacy-data-removal",
+  "description": "Database export",
+  "type": "wp-cli-package",
+  "homepage": "https://github.com/beapi/wp-cli-searchwp-legacy-data-removal",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.6"
+  },
+  "authors": [
+    {
+      "name": "Amaury Balmer",
+      "email": "amaury@beapi.fr"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "files": [ "command.php" ]
+  }
+}
