@@ -14,6 +14,7 @@ class WP_CLI_SearchWP_Legacy_Data_Removal extends WP_CLI_SearchWP_Legacy_Data_Re
 		if ( $this->has_legacy_version( '3' ) ) {
 			$this->remove_3x();
 			WP_CLI::success( 'SearchWP 3.x legacy data has been removed!' );
+			exit();
 		}
 
 		WP_CLI::warning( 'There is no legacy SearchWP data detected.' );
